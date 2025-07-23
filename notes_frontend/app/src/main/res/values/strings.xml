@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Personal Notes</string>
+    <string name="hint_title">Note Title</string>
+    <string name="hint_content">Note Content</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_edit">Edit</string>
+    <string name="btn_delete">Delete</string>
+    <string name="search_hint">Search notes</string>
+</resources>
