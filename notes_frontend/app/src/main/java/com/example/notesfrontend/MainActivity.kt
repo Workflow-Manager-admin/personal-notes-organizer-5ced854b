@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity() {
 
         // Implement search
         val searchView: SearchView = findViewById(R.id.search_view)
-        searchView.queryHint = "Search notes"
+        searchView.queryHint = getString(R.string.search_hint)
         searchView.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
             override fun onQueryTextSubmit(query: String?): Boolean {
                 adapter.updateNotes(NoteRepository.searchNotes(query ?: ""))

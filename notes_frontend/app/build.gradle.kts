@@ -9,6 +9,7 @@ android {
     compileSdk = 34
 
     defaultConfig {
+        multiDexEnabled = true
         applicationId = "com.example.notesfrontend"
         minSdk = 24
         targetSdk = 34
@@ -41,6 +42,10 @@ android {
 
     buildFeatures {
         viewBinding = true
+    }
+    
+    androidResources {
+        noCompress += listOf("xml")
     }
 }
 
